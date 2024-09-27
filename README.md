@@ -1,5 +1,5 @@
 ## About
-This repo contains a to-do app, where items can add, list and delete. Also a simple register/signin. This application can run in 3 types of setup
+This repo contains a to-do app, where items can add, list and delete. Also a simple register/signin. Python 3.12, django 5.x, RabbitmQ, Postgres, nginx are the stacks used. This application can run in 3 types of setup
 
 - Straight forward running each application
 - docker compose
