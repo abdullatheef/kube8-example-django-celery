@@ -1,9 +1,11 @@
-# This codebase allows 3 types of running services
-## 1. Straight forward running each application
-## 2. docker compose
-## 3. kubernetes
+## About
+This repo contains a to-do app, where items can add, list and delete. Also a simple register/signin. This application can run in 3 types of setup
 
 ### 1. Straight forward running each application
+### 2. docker compose
+### 3. kubernetes
+
+### Straight forward running each application
 
 ```
 ./run.sh
@@ -11,7 +13,7 @@
 
 verify : http://localhost:8010
 
-### 2. docker compose
+### docker compose
 
 ```
 docker-compose up --build
@@ -20,7 +22,7 @@ docker-compose up --build
 verify : http://localhost
 
 
-### 3. Kubernetes
+### Kubernetes
 
 ```
 cd kube
