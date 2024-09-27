@@ -13,7 +13,8 @@ verify : http://localhost:8010
 
 ### 2. docker compose
 
-```docker-compose up --build
+```
+docker-compose up --build
 ```
 
 verify : http://localhost
