@@ -1,9 +1,9 @@
 ## About
 This repo contains a to-do app, where items can add, list and delete. Also a simple register/signin. This application can run in 3 types of setup
 
-### 1. Straight forward running each application
-### 2. docker compose
-### 3. kubernetes
+- Straight forward running each application
+- docker compose
+- kubernetes
 
 ### Straight forward running each application
 
