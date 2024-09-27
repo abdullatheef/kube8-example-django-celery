@@ -1,38 +1,38 @@
-This codebase allows 3 types of running services
-1. Straight forward running each application
-2. docker compose
-3. kubernetes
+# This codebase allows 3 types of running services
+## 1. Straight forward running each application
+## 2. docker compose
+## 3. kubernetes
 
-1. Straight forward running each application
+### 1. Straight forward running each application
 
+```
 ./run.sh
+```
 
 verify : http://localhost:8010
 
-2. docker compose
+### 2. docker compose
 
-docker-compose up --build
+```docker-compose up --build
+```
 
 verify : http://localhost
 
 
-3. Kubernetes
+### 3. Kubernetes
 
+```
 cd kube
 kubectl apply -f .
+```
 
+In a minikube, 
 
+```
 kubectl port-forward pod/<nginx> -n todo-app  8010:80
 kubectl port-forward pod/<django> -n todo-app  8000:8000
-
+```
 verify : http://localhost:8010
 
 
-
-
-
-
-
-
-
-
+If any issues to start the containers, just kill the containers and automtically restarts.
